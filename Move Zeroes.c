@@ -27,6 +27,5 @@ void moveZeroes(int* nums, int numsSize) {
     for(int i=nonzero;i<numsSize;i++)
     {
         nums[i]=0;
-        nonzero++;
     }
 }
